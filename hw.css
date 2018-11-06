@@ -1,0 +1,84 @@
+body{  
+
+    font-family:LiSong Pro Light;
+ 
+}
+.jumbotron {
+    background-color: coral;
+    background-position: center;
+    color: #fff;
+    /*text color*/
+    padding: 25px;
+    font-family: Montserrat, sans-serif;
+    width: auto;
+    height: 200px;
+    ;
+    background-size: cover;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+
+footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 32px;
+}
+
+nav {
+    background-color:	#FFA500;
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    color: #fff;
+    width: auto;
+    height: 25px;
+    padding: 4px 4px;
+}
+
+#first {
+    background: url("monocover.JPG");
+    background-color:#FFA500;
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    padding: 100px;
+}
+
+#second {
+    background-image: url("colorcover.JPG");
+    background-color:#FFA500;
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+
+#first .row {
+    min-height: 250px;
+    background-color:coral;
+    color:white;
+}
+
+#first  .row >div:last-child {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+
+}
+
+
+
+#second .row {
+    min-height: inherit;
+
+}
+
+
+#second .row div:last-child {
+    min-height: inherit;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+
+}
